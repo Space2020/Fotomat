@@ -1,7 +1,7 @@
 /* Universal Styles */
 
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 16px;
 }
 
@@ -41,12 +41,18 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  height: 85px;
+  position: fixed;
+  z-index: 10;
 }
 
 header .content {
+  font-family: "Roboto", sans-serif;
+  margin-left: 30px;
   display: flex;
   align-items: center;
   padding: 1.875rem;
+  color: #4a4a4a;
 }
 
 header .logo {
@@ -71,6 +77,7 @@ nav a {
 header .icon {
   width: 1rem;
   padding-left: .75rem;
+  margin-right: 30px;
 }
 
 header .mobile {
@@ -110,6 +117,17 @@ header .mobile {
   }
 }
 
+/* Main Section */
+
+.main-content{
+  background-image: url("../images/banner-landingpage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 37.50rem;
+}
+
 /* Sign Up Section */
 
 #sign-up-section {
@@ -123,7 +141,8 @@ header .mobile {
   padding: 0 5rem 2.5rem 5rem;
   border: solid 1px #979797;
   border-radius: 4px;
-  background-color: #9dc20b;
+  background-color: #9dc20a;
+  margin: 10.625rem 6.25rem; /* have Kari inspect margintop and marginbottom */
 }
 
 #sign-up-cta .content {
