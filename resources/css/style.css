@@ -336,7 +336,7 @@ header .mobile {
   max-width: 100%;
   padding: 0 1%;
   display: flex;
-}
+  }
 
 .images-container img{
   height: 400px;
@@ -382,7 +382,7 @@ header .mobile {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
@@ -395,7 +395,8 @@ header .mobile {
   color: #4a4a4a;
 }
 
-#quotes-section quote-citation {
+#quotes-section .quote-citation {
+  margin-left: 1.875rem;
   height: 1.875rem;
 }
 
@@ -421,6 +422,7 @@ header .mobile {
 footer {
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
+  height: 62px;
 }
 
 footer .content {
@@ -431,6 +433,25 @@ footer .content {
 
 footer .copyright {
   flex-grow: 1;
+  font-size: 12px;
+  margin-left: 2rem;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: "Roboto-Regular", sans-serif;
+}
+
+footer .location{
+  font-size: 12px;
+  font-family: "Roboto-Regular", sans-serif;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.quote{
+  font-size: 1.875rem;
+  font-family: 'Lobster Two', cursive;
+  line-height: 1.1;
+  color: #4a4a4a;
 }
 
 @media only screen and (min-width: 760px) {
